@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="43" failures="0" name="br.com.agsvensson.runners.RunnerTest" time="0.005" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/Users/agsve/eclipse-workspace/cursocucumber"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\agsve\eclipse-workspace\cursocucumber"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\agsve\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:/Maven/apache-maven-3.8.1/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\agsve\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\agsve\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python39\Scripts;C:\Python39;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\bi;.;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\webdriver;C:\Maven\apache-maven-3.8.1\bin;C:\Users\agsve\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\bin;C:\Users\agsve\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\agsve\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="maven.conf" value="C:/Maven/apache-maven-3.8.1/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:/Maven/apache-maven-3.8.1/lib/jansi-native"/>
+    <property name="user.home" value="C:\Users\agsve"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Arthur Svensson"/>
+    <property name="java.class.path" value="C:/Maven/apache-maven-3.8.1/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Maven\apache-maven-3.8.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Cenário: Deve alugar um filme com sucesso" name="Dado um filme" time="0.002"/>
+  <testcase classname="Cenário: Deve alugar um filme com sucesso" name="Quando alugar" time="0"/>
+  <testcase classname="Cenário: Deve alugar um filme com sucesso" name="Então o preço do aluguel será R$ 3" time="0"/>
+  <testcase classname="Cenário: Deve alugar um filme com sucesso" name="E a data de entrega será em 1 dia" time="0"/>
+  <testcase classname="Cenário: Deve alugar um filme com sucesso" name="E o estoque do filme será 1 unidade" time="0"/>
+  <testcase classname="Cenário: Deve alugar um filme com sucesso" name="Cenário: Deve alugar um filme com sucesso" time="0.001"/>
+  <testcase classname="Cenário: Não deve alugar filme sem estoque" name="Dado um filme com estoque de 0 unidades" time="0"/>
+  <testcase classname="Cenário: Não deve alugar filme sem estoque" name="Quando alugar" time="0"/>
+  <testcase classname="Cenário: Não deve alugar filme sem estoque" name="Então não será possível por falta de estoque" time="0"/>
+  <testcase classname="Cenário: Não deve alugar filme sem estoque" name="E o estoque do filme será 0 unidade" time="0"/>
+  <testcase classname="Cenário: Não deve alugar filme sem estoque" name="Cenário: Não deve alugar filme sem estoque" time="0.001"/>
+  <testcase classname="| 4 | extendido | 8 | 3 | 2 |" name="Dado um filme com estoque de 2 unidades" time="0"/>
+  <testcase classname="| 4 | extendido | 8 | 3 | 2 |" name="E que o preço de aluguel seja R$ 4" time="0"/>
+  <testcase classname="| 4 | extendido | 8 | 3 | 2 |" name="E que o tipo do aluguel seja extendido" time="0"/>
+  <testcase classname="| 4 | extendido | 8 | 3 | 2 |" name="Quando alugar" time="0"/>
+  <testcase classname="| 4 | extendido | 8 | 3 | 2 |" name="Então o preço do aluguel será R$ 8" time="0"/>
+  <testcase classname="| 4 | extendido | 8 | 3 | 2 |" name="E a data de entrega será em 3 dias" time="0"/>
+  <testcase classname="| 4 | extendido | 8 | 3 | 2 |" name="E a pontuação recebida será de 2 pontos" time="0"/>
+  <testcase classname="| 4 | extendido | 8 | 3 | 2 |" name="| 4 | extendido | 8 | 3 | 2 |" time="0"/>
+  <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="Dado um filme com estoque de 2 unidades" time="0"/>
+  <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="E que o preço de aluguel seja R$ 4" time="0"/>
+  <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="E que o tipo do aluguel seja comum" time="0"/>
+  <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="Quando alugar" time="0"/>
+  <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="Então o preço do aluguel será R$ 4" time="0"/>
+  <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="E a data de entrega será em 1 dias" time="0"/>
+  <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="E a pontuação recebida será de 1 pontos" time="0"/>
+  <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="| 4 | comum | 4 | 1 | 1 |" time="0"/>
+  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="Dado um filme com estoque de 2 unidades" time="0"/>
+  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="E que o preço de aluguel seja R$ 10" time="0"/>
+  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="E que o tipo do aluguel seja extendido" time="0"/>
+  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="Quando alugar" time="0"/>
+  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="Então o preço do aluguel será R$ 20" time="0"/>
+  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="E a data de entrega será em 3 dias" time="0"/>
+  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="E a pontuação recebida será de 2 pontos" time="0"/>
+  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="| 10 | extendido | 20 | 3 | 2 |" time="0"/>
+  <testcase classname="| 5 | semanal | 15 | 7 | 3 |" name="Dado um filme com estoque de 2 unidades" time="0"/>
+  <testcase classname="| 5 | semanal | 15 | 7 | 3 |" name="E que o preço de aluguel seja R$ 5" time="0"/>
+  <testcase classname="| 5 | semanal | 15 | 7 | 3 |" name="E que o tipo do aluguel seja semanal" time="0"/>
+  <testcase classname="| 5 | semanal | 15 | 7 | 3 |" name="Quando alugar" time="0"/>
+  <testcase classname="| 5 | semanal | 15 | 7 | 3 |" name="Então o preço do aluguel será R$ 15" time="0"/>
+  <testcase classname="| 5 | semanal | 15 | 7 | 3 |" name="E a data de entrega será em 7 dias" time="0"/>
+  <testcase classname="| 5 | semanal | 15 | 7 | 3 |" name="E a pontuação recebida será de 3 pontos" time="0"/>
+  <testcase classname="| 5 | semanal | 15 | 7 | 3 |" name="| 5 | semanal | 15 | 7 | 3 |" time="0.001"/>
+</testsuite>
