@@ -81,7 +81,7 @@ public class AprenderCucumberSteps {
 	// DESAFIO Aula 14
 	
 
-	@Dado("^que o ticket( especial)? é (A.\\d{3})$")
+	@Dado("^que o ticket( especial)? é (.+\\d{3})$")
 	public void queOTicketÉAF(String tipo, String arg1) throws Throwable {
 
 	}
@@ -91,12 +91,12 @@ public class AprenderCucumberSteps {
 		System.out.println(numero);
 	}
 
-	@Dado("^que o nome do passageiro é \"(.{5,20})\"$")
+	@Dado("^que o nome do passageiro é \"(\\w.+)\"$")
 	public void queONomeDoPassageiroÉ(String arg1) throws Throwable {
 
 	}
 
-	@Dado("^que o telefone do passageiro é (9\\d{3}-\\d{4})$")
+	@Dado("^que o telefone do passageiro é (\\d{3,}-\\d{3,})$")
 	public void queOTelefoneDoPassageiroÉ(String telefone) throws Throwable {
 
 	}

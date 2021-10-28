@@ -24,7 +24,7 @@ public class NotaAluguel {
 		dataEntrega = time;
 	}
 
-	public Object getPontuacao() {
+	public int getPontuacao() {
 		return pontuacao;
 	}
 
