@@ -12,10 +12,10 @@ import br.com.agsvensson.entities.NotaAluguel;
 import br.com.agsvensson.entities.TipoAluguel;
 import br.com.agsvensson.services.AluguelService;
 import br.com.agsvensson.utils.DateUtils;
-import cucumber.api.DataTable;
-import cucumber.api.java.pt.Dado;
-import cucumber.api.java.pt.Então;
-import cucumber.api.java.pt.Quando;
+import io.cucumber.datatable.DataTable;
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Então;
+import io.cucumber.java.pt.Quando;
 
 public class AlugarFilmesSteps {
 

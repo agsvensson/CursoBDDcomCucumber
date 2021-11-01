@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="14" failures="0" name="br.com.agsvensson.runners.RunnerTest" time="0.108" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="br.com.agsvensson.runners.RunnerFuncionalTest" time="16.442" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
@@ -63,18 +63,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Alugar filme" name="Deve alugar um filme com sucesso" time="0.025"/>
-  <testcase classname="Alugar filme" name="Não deve alugar filme sem estoque" time="0.003"/>
-  <testcase classname="Alugar filme" name="Deve dar condições conforme tipo de aluguel" time="0.025"/>
-  <testcase classname="Alugar filme" name="Deve dar condições conforme tipo de aluguel" time="0.008"/>
-  <testcase classname="Alugar filme" name="Deve dar condições conforme tipo de aluguel" time="0.005"/>
-  <testcase classname="Alugar filme" name="Deve dar condições conforme tipo de aluguel" time="0.006"/>
-  <testcase classname="Aprender Cucumber" name="Deve executar a especificação" time="0.006"/>
-  <testcase classname="Aprender Cucumber" name="Deve incrementar contador" time="0.003"/>
-  <testcase classname="Aprender Cucumber" name="Deve incrementar contador" time="0.003"/>
-  <testcase classname="Aprender Cucumber" name="Deve calcular atraso na entrega" time="0.006"/>
-  <testcase classname="Aprender Cucumber" name="Deve calcular atraso na entrega da China" time="0.003"/>
-  <testcase classname="Aprender Cucumber" name="Deve criar steps genéricos para estes passos" time="0.005"/>
-  <testcase classname="Aprender Cucumber" name="Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" time="0.005"/>
-  <testcase classname="Aprender Cucumber" name="Deve negar todos os steps &quot;Dado&quot; dos cenários anteriores" time="0.005"/>
+  <testcase classname="Cadastro de contas" name="Deve validar regras cadastro contas" time="5.546"/>
+  <testcase classname="Cadastro de contas" name="Deve validar regras cadastro contas" time="5.565"/>
+  <testcase classname="Cadastro de contas" name="Deve validar regras cadastro contas" time="5.331"/>
 </testsuite>
