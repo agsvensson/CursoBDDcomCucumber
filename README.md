@@ -6,4 +6,4 @@ Temas abordados:<BR>
 - Cucumber com Selenium (testes funcionais)<BR>
 <BR>
 <BR>
-Link do curso [aqui](https://www.udemy.com/course/cucumber-java).
+Link do curso: https://www.udemy.com/course/cucumber-java
